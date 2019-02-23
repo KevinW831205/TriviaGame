@@ -205,8 +205,10 @@ var game = {
     }
 }
 
+window.onload = function() {
+
 $("#startBtn").on("click", function () {
     game.reset();
     $("#timer").show();
-});
-
+})
+};
