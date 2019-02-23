@@ -1,0 +1,72 @@
+/* UpennLPS HW5 Trivia Game
+Author: Kevin Wang
+Date due: 2019/02/23 */
+
+
+body{
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top:10px;
+
+}
+
+#timer{
+    display:none;
+    font-size: 40px;
+}
+
+#startBtn{
+    height:60px;
+    width:300px;
+    margin-top: 100px;
+}
+
+.answers:hover{
+    background-color: yellow;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.transitionImage{
+    height:auto;
+    max-height:250px;
+    width:auto;
+    max-width:475px;
+    margin-top: 50px;
+}
+
+#restartBtn:hover{
+    background-color: yellow;    
+}
+
+#gameBox{
+    height:500px;
+    width:1200px;
+    text-align: center;
+    border-style: inset;
+    border-width: 10px;
+    padding-top:20px;
+    margin:auto;
+}
+
+header{
+    background-color:red;
+    width:100%;
+    padding-top: 50px;
+    height:130px;
+    text-align: center;
+    border-bottom: 30px;
+    border-style: solid;
+}
