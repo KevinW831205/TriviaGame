@@ -1,5 +1,4 @@
 # TriviaGame
-## Due Date 2019/02/23
 
 This is a Pokemon Themed Trivia Game,
 
